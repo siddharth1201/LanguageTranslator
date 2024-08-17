@@ -33,3 +33,4 @@ huggingface_hub
 torch
 wikipedia
 SQLAlchemy
+langserve
