@@ -16,7 +16,7 @@ def get_groq_response(input_text, language):
 
     # Send the POST request with the JSON body
     try:
-        response = requests.post("http://127.0.0.1:8000/chain/invoke", json=json_body)
+        response = requests.post("https://languagetranslator-i05c.onrender.com/chain/invoke", json=json_body)
         response.raise_for_status()  # Check if the request was successful
         return response.json()  # Return the JSON response
     except requests.exceptions.RequestException as e:
