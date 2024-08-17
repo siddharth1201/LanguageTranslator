@@ -29,6 +29,7 @@ youtube_transcript_api
 unstructured
 pytube
 numexpr
+gtts
 huggingface_hub
 torch
 wikipedia
