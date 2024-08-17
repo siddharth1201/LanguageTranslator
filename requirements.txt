@@ -34,3 +34,4 @@ torch
 wikipedia
 SQLAlchemy
 langserve
+sse-starlette
